@@ -1,4 +1,4 @@
-# R62S3
+# R62S3 <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 [![Travis Build Status](https://travis-ci.com/RaphaelS1/R62S3.svg?branch=master)](https://travis-ci.com/RaphaelS1/R62S3)
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/olstl9l368ofl5el?svg=true)](https://ci.appveyor.com/project/RaphaelS1/r62s3)
@@ -7,6 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CRAN Version](http://www.r-pkg.org/badges/version-ago/R62S3)](http://www.r-pkg.org/badges/version/R62S3)
 [![CRAN Summary](http://cranlogs.r-pkg.org/badges/grand-total/R62S3)](http://cranlogs.r-pkg.org/badges/grand-total/R62S3)
+[![CRAN Checks](https://cranchecks.info/badges/summary/R62S3)](https://cran.r-project.org/web/checks/check_results_R62S3.html)
+[![Dependencies](https://tinyverse.netlify.com/badge/R62S3)](https://CRAN.R-project.org/package=R62S3)
 
 ## What is R62S3?
 
@@ -62,14 +64,18 @@ lapply(ls(name=parent.env(environment())),function(x){
   })
 ````
 
+### distr6 Use-Case
+
+To see `R62S3` in action, check out the [distr6](https://CRAN.R-project.org/package=distr6) package (Sonabend and Kiraly, 2019). In `distr6` we use the `R62Fun` functions in our `zzz.R` file to generate S3 methods from specified R6 classes. This package also demonstrates how to document these functions.
+
 ## Installation
 
-For a stable release, install from CRAN
+Install from CRAN with
 ````R
 install.packages("R62S3")
 ````
 
-Or install the latest build from GitHub with
+Or the latest stable build from GitHub with
 
 ````R
 remotes::install_github("RaphaelS1/R62S3")
@@ -77,4 +83,4 @@ remotes::install_github("RaphaelS1/R62S3")
 
 ### Acknowledgements
 Dr Franz Kiraly for initial discussions about the idea. <br>
-Prof. Dr. Peter Ruckdeschel for conversations that lead to a simplification in the code structure.
+Prof. Dr. Peter Ruckdeschel for conversations that lead to a simplification in the code structure in earlier versions.
