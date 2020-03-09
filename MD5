@@ -1,7 +1,7 @@
-1d74b28dd954c0b05fd7ed6977c7adcd *DESCRIPTION
+19f4cf91a3e426cb9f81e56cd12ac0d7 *DESCRIPTION
 3a603adf0183290ec6d434dbce33a11b *LICENSE
 347f26fc81c94c266826aecba330330f *NAMESPACE
-b132de70de6882076f3dbb8fc96ca6c2 *NEWS.md
+28b80fad3f0ac41cbd38e72554ce44a3 *NEWS.md
 b93aae2946464b304b5158724133e21d *R/R62Fun.R
 7e0895e088dbfcefaa9b805f9e5b0e85 *R/R62S3.R
 6bd4c0f0ad9a3dd211da2044b363e740 *R/R62S4.R
@@ -10,13 +10,13 @@ b93aae2946464b304b5158724133e21d *R/R62Fun.R
 eda315481c2ef710b8904ea7bc1eae0c *R/getBody.R
 024e139601b28e9c03973006695a068f *R/getMethods.R
 bca30e1ac48a41c1cb135e6726d129ca *R/makeGeneric.R
-a19bdfa532dae074a2575246abee4298 *README.md
+13fbcd24c08530f6b666159a6385b979 *README.md
 b5e47e308f61d2699d8138d4d39e8380 *man/R62Fun.Rd
 a74407d0d60cedd441efe8bc9f96a328 *man/R62S3.Rd
 185e2fd9dfffe4c278feae411165b911 *man/R62S4.Rd
 c2bcaa5044874a8da1a6c7fffccb6f9c *man/figures/logo.png
 0c1d110ed42b27bf3f6c48a2ffdbcbf9 *tests/testthat.R
 e0414852e8396b55a499be970440601e *tests/testthat/helper.R
-171186a57134f01e0c8b5ca3f43dbabf *tests/testthat/test-R62Fun.R
+b765a6856b484ec2b14eca3f046f7e1a *tests/testthat/test-R62Fun.R
 f9a0dbb0b93f05bfb2f09255b3f37f83 *tests/testthat/test-R62S3.R
 1f5facd8f3f695d88e360334e08b5d8c *tests/testthat/test-R62S4.R
